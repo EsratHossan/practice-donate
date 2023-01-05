@@ -78,3 +78,49 @@ hr{
     width: 600px;
     margin: 10px auto;
 }
+/* Donate plan */
+.donate-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 60px 70px;
+    /* background-color: red; */
+}
+.donate-title{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 120px;
+}
+.donate-disc{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.box1, .box2, .box3{
+    border: 1px solid slateblue;
+    width: 350px;
+    height: 300px;
+    text-align: start;
+    padding: 20px;
+    border: none;
+}
+.box-image{
+    margin-top: 50px;
+}
+.box-title{
+    margin: 20px 0;
+}
+.box-disc{
+    tab-size: 22px;
+    line-height: 1.6rem;
+}
+.box1{
+    background-color: #4F9DA61A;
+}
+.box2{
+    background-color: #FF59591A;
+}
+.box3{
+    background-color: #FFF4D6;
+}
