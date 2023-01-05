@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* Banner section */
+.banner{
+    background-image: url('/images/donation1.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 175px 175px;
+}
+.banner-title{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    padding: 0 122px;
+}
+.banner-description{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 28px 231px;
+
+}
+.btn-primary{
+    color: white;
+    background: tomato;
+    font-weight: 700;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+/* main section */
+.section{
+    text-align: center;
+    margin-top: 54px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 60px;
+}
+.section-description{
+    font-weight: 500;
+    font-size: 16px;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.tk{
+    color: #707070;
+    border: none;
+    padding: 20px 20px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.tk-active{
+    color: tomato;
+    border: 3px solid tomato;
+    padding: 20px 20px;
+    background-color: #ffeeee;
+    border-radius: 5px;
+}
+.op{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #B3B3B3;
+}
+hr{
+    width: 600px;
+    margin: 10px auto;
+}
